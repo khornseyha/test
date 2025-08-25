@@ -4,7 +4,7 @@
     <div class="lg:grid lg:grid-cols-12 lg:gap-8">
         <!-- Product Image -->
         <div class="lg:col-span-5">
-            <div class="bg-white border border-gray-200 rounded-lg shadow-sm overflow-hidden">
+            <div class="bg-pink border border-gray-200 rounded-lg shadow-sm overflow-hidden">
                 <img src="{{ product['image'] }}" class="w-full h-96 lg:h-[500px] object-contain" alt="Fjallraven Backpack">
             </div>
         </div>
@@ -25,7 +25,7 @@
                 </p>
             </div>
             <div class="mt-8">
-                <button class="bg-blue-600 cursor-pointer hover:bg-blue-700 text-white font-medium py-3 px-8 rounded-lg text-lg transition duration-150 ease-in-out shadow-sm" @click="addToCart({{product}})">
+                <button class="bg-pink-600 cursor-pointer hover:bg-red-700 text-white font-medium py-3 px-8 rounded-lg text-lg transition duration-150 ease-in-out shadow-sm" @click="addToCart({{product}})">
                     Add to Cart
                 </button>
             </div>
