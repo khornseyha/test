@@ -6,7 +6,7 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 app = Flask(__name__)
-CORS(app, resources={r"/*": {"origins": ["https://smos-store.vercel.app", "https://fakestoreapi.com"]}})
+CORS(app, resources={r"/*": {"origins": ["https://fakestoreapi.com"]}})
 
 
 token = "7880578329:AAE6YYC2bmZaQUqM7zk7IbrJ2rdpFXLBX9o"
