@@ -240,3 +240,9 @@ products = [
     }
   }
 ]
+
+def getByID(pro_id): 
+    for product in products:
+        if product['id'] == pro_id:
+          return product
+    return None
